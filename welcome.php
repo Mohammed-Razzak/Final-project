@@ -52,10 +52,10 @@ if (!isset($_SESSION['username'])) {
             <li><a href="welcome.php">Home</a></li>
             <li><a href="#">Lose weight</a></li>
             <li><a href="#">Gain weight</a></li>
-            <li><a href="#">Build muscle</a></li>
             <li id="header-logo" class="plan-fit-logo"><a href="welcome.php">Plan<br/>Fit</a></li>
+            <li><a href="#">Build muscle</a></li>
             <li><a href="#">Equipment</a></li>
-            <li><a href="#">Gyms for you</a></li>
+            <!-- <li><a href="#">Gyms for you</a></li> -->
             <li><a href="logout.php">Logout</a></li>
             <!-- <li>
               <button id="search"><span class="fa fa-search"></span></button>
