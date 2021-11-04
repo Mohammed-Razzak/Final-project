@@ -284,7 +284,7 @@ if (!isset($_SESSION['username'])) {
           <li><a href="#">Gain weight</a></li>
           <li><a href="#">Build muscle</a></li>
           <li><a href="#">Equipment</a></li>
-          <li><a href="#">Gyms for you</a></li>
+          <!-- <li><a href="#">Gyms for you</a></li> -->
         </ul>
       </nav>
 
