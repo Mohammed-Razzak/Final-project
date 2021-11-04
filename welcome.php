@@ -274,12 +274,12 @@ if (!isset($_SESSION['username'])) {
   <footer>
     <div class="footer-container">
       <div id="footer-logo" class="plan-fit-logo">
-        <a href="#">Plan<br/>Fit</a>
+        <a href="welcome.php">Plan<br/>Fit</a>
       </div>
 
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="welcome.php">Home</a></li>
           <li><a href="#">Lose weight</a></li>
           <li><a href="#">Gain weight</a></li>
           <li><a href="#">Build muscle</a></li>
@@ -288,16 +288,16 @@ if (!isset($_SESSION['username'])) {
         </ul>
       </nav>
 
-      <div class="mailing-list">
+      <!-- <div class="mailing-list">
         <input type="text" placeholder="YOUR EMAIL" />
         <button>SIGN UP</button>
-      </div>
+      </div> -->
 
       <ul class="social-icons">
-        <li><a href="https://www.instagram.com/" target="_blank"><span class="fab fa-instagram"></span></a></li>
-        <li><a href="https://twitter.com/" target="blank"><span class="fab fa-twitter"></span></a></li>
-        <li><a href="https://www.facebook.com/" target="blank"><span class="fab fa-facebook"></span></a></li>
-        <li><a href="https://www.youtube.com " target="blank"><span class="fab fa-youtube"></span></a></li>
+        <li><a href="https://www.instagram.com/" target="blank"><span class="fab fa-instagram fa-2x"></span></a></li>
+        <li><a href="https://twitter.com/" target="blank"><span class="fab fa-twitter fa-2x"></span></a></li>
+        <li><a href="https://www.facebook.com/" target="blank"><span class="fab fa-facebook fa-2x"></span></a></li>
+        <li><a href="https://www.youtube.com " target="blank"><span class="fab fa-youtube fa-2x"></span></a></li>
       </ul>
 
   
@@ -318,7 +318,7 @@ if (!isset($_SESSION['username'])) {
     <span id="video-frame-hide" class="fa fa-times"></span>
     <div class="video-frame-container">
       <div class="video-frame-scaler">
-        <iframe style="border: 0px" src="https://www.youtube.com/embed/N7G-kGvai4M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="border: 0px" src="https://www.youtube.com/embed/V2EfL1j4KYE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
