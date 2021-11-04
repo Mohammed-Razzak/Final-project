@@ -9,7 +9,7 @@
 #register-body {
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(images/arnold-conquer.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(images/muhammad-ali.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
