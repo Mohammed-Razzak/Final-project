@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<title>Login to Planfit!</title>
+	<title>Login to PlanFit!</title>
 </head>
 <body id="login-body">
 	<div class="container-login">
