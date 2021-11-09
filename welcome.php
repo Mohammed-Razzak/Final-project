@@ -318,7 +318,7 @@ if (!isset($_SESSION['username'])) {
     <span id="video-frame-hide" class="fa fa-times"></span>
     <div class="video-frame-container">
       <div class="video-frame-scaler">
-        <iframe style="border: 0px" src="https://www.youtube.com/embed/V2EfL1j4KYE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="border: 0px" src="https://www.youtube.com/embed/V2EfL1j4KYE?rel=0&modestbranding=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
