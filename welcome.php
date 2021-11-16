@@ -92,7 +92,7 @@ if (!isset($_SESSION['username'])) {
             <i class="fas fa-award fa-3x"></i>
           </div>
           <h4>Workout plans</h4>
-          <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium, vitae ornare leo.</p>
+          <p>Get the best evidence-backed workout plans that professional athletes follow. These workout plans have proven to be effective in long term fitness. </p>
         </div>
       </div>
 
@@ -102,25 +102,25 @@ if (!isset($_SESSION['username'])) {
           <div class="icon">
             <i class="fas fa-dumbbell fa-3x" ></i>
           </div>
-          <h4>Essential equipment recommendations</h4>
-          <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium, vitae ornare leo.</p>
+          <h4>Equipment recommendations</h4>
+          <p>The essential equipment you need to take your fitness journey to the next level from strong wrist supports for easy lifting to the affordable home dumbells. </p>
         </div>
       </div>
 
       <div class="box">
-        <img src="images/dietplan.jpg" alt="Woman doing leg press" />
+        <img src="images/dietplan.jpg" alt="healthy food" />
         <div class="feature-info-container">
           <div class="icon">
             <i class="fas fa-apple-alt fa-3x"></i>
           </div>
           <h4>Diet plans</h4>
-          <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium, vitae ornare leo.</p>
+          <p>Get the best diet plans recommended from sports nutritionists for all types of people including vegetarians and vegans.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services">
+  <!-- <section id="services">
     <h3>Services</h3>
     <div class="flex container">
       <div class="box">
@@ -149,47 +149,47 @@ if (!isset($_SESSION['username'])) {
     </div>
 
     <button>See All Services</button>
-  </section>
+  </section> -->
 
   <section id="trainers">
-    <h5>Get tips from</h5>
-    <h3>performance athletes</h3>
+    <h5>Get advice and inspiration from</h5>
+    <h3>Professional athletes</h3>
     <div class="container">
       <div id="trainers-slider">
         <div class="trainer-slider-item">
-          <img src="https://onclickwebdesign.com/wp-content/uploads/trainer-1.jpg" alt="Rachel Smith Personal Trainer" />
-          <h4>Rachel Smith</h4>
-          <p>Aerobics Instructor</p>
+          <img src="images/arnold-motivation.jpg" alt="arnold inspiration" />
+          <h4>Arnold Schwarzenegger</h4>
+          <p>Former Mr Olympia bodybuilder</p>
         </div>
 
         <div class="trainer-slider-item">
-          <img src="https://onclickwebdesign.com/wp-content/uploads/trainer-2.jpg" alt="Nick Andros Personal Trainer" />
-          <h4>Nick Andros</h4>
-          <p>Pilates Instructor</p>
+          <img src="images/jeff-cavaliere.jpg" alt="jeff youtuber" />
+          <h4>Jeff Cavaliere</h4>
+          <p>Youtube professional trainer</p>
         </div>
 
         <div class="trainer-slider-item">
-          <img src="https://onclickwebdesign.com/wp-content/uploads/trainer-3.jpg" alt="Larry Underwood Personal Trainer" />
-          <h4>Larry Underwood</h4>
-          <p>Strength Training Coach</p>
+          <img src="images/david-goggins.jpg" alt="motivation david goggins" />
+          <h4>David Goggins</h4>
+          <p>Ultra marathon runner</p>
         </div>
 
         <div class="trainer-slider-item">
-          <img src="https://onclickwebdesign.com/wp-content/uploads/trainer-1.jpg" alt="Rachel Smith Personal Trainer" />
-          <h4>Rachel Smith</h4>
-          <p>Aerobics Instructor</p>
+          <img src="images/arnold-motivation.jpg" alt="arnold inspiration" />
+          <h4>Arnold Schwarzenegger</h4>
+          <p>Former Mr Olympia bodybuilder</p>
         </div>
 
         <div class="trainer-slider-item">
-          <img src="https://onclickwebdesign.com/wp-content/uploads/trainer-2.jpg" alt="Nick Andros Personal Trainer" />
-          <h4>Nick Andros</h4>
-          <p>Pilates Instructor</p>
+          <img src="images/jeff-cavaliere.jpg" alt="jeff youtuber" />
+          <h4>Jeff Cavaliere</h4>
+          <p>Youtube professional trainer</p>
         </div>
 
         <div class="trainer-slider-item">
-          <img src="https://onclickwebdesign.com/wp-content/uploads/trainer-3.jpg" alt="Larry Underwood Personal Trainer" />
-          <h4>Larry Underwood</h4>
-          <p>Strength Training Coach</p>
+          <img src="images/david-goggins.jpg" alt="motivation david goggins" />
+          <h4>David Goggins</h4>
+          <p>Ultra marathon runner</p>
         </div>
       </div>
     </div>
