@@ -1,3 +1,9 @@
+
+
+<!-- This is the login page where only registered users can login and view the web application -->
+
+<!-- Below is the php code for the verification of users and would fetch user data from mySQL database -->
+
 <?php 
 
 include 'config.php';
@@ -27,13 +33,13 @@ if (isset($_POST['submit'])) {
 
 ?>
 
+<!-- This is the login form that will be displayed on the client side -->
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 

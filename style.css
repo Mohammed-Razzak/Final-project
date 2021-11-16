@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+ /* This is the styling for the register form on the client side*/
     
 }
 #register-body {
@@ -79,6 +81,8 @@
   transform: translateY(-5px);
   background: #42b18e;
 }
+
+/* This is the styling for the login form on the client side*/
 
 #login-body {
     width: 100%;
@@ -169,17 +173,12 @@
     .container-login {
         width: 300px;
     } 
-     /* .container-login .login-social {
-        display: block;
-    }
-    .container-login .login-social a {
-        display: block;
-    }  */
+
 }
 
  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'); 
 
-/* start: global styles */
+
  * {
   outline: none;
 } 
@@ -281,9 +280,7 @@ section, footer {
 .box {
   text-align: center;
 }
-/* end: global styles */
 
-/* start: hero section styles */
 #hero {
   position: relative;
   padding: 0;
@@ -404,9 +401,7 @@ header nav ul li a {
 #hero-slider .slick-dots li.slick-active button:before {
   border-color: #fff;
 }
-/* end: hero section styles */
 
-/* start: features section styles */
 #features .box {
   width: 31%;
 }
@@ -435,32 +430,7 @@ header nav ul li a {
   vertical-align: middle;
   color: white;
 }
-/* end: features section styles */
 
-/* start: services section styles */
-/* #services {
-  background: #242425;
-}
-
-#services .container {
-  margin-bottom: 4rem;
-}
-
-#services .box {
-  width: 23.5%;
-}
-
-#services .box img {
-  height: 65px;
-  margin-bottom: 2rem;
-}
-
-#services .box h4 {
-  color: #fff;
-} */
-/* end: services section styles */
-
-/* start: trainers section styles */
 #trainers {
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(images/viridian.jpg) top center no-repeat;
   background-size: cover;
@@ -501,11 +471,7 @@ header nav ul li a {
 #trainers-slider .slick-next:before {
   font-size: 40px;
 }
-/* end: trainers section styles */
 
-
-
-/* start: footer section styles */
 footer {
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(images/ali-iconic.jpg) top center no-repeat;
   background-size: cover;
@@ -569,10 +535,6 @@ footer ul.social-icons li a {
   font-size: 1rem;
 }
 
-/* footer img.bicep {
-  display: block;
-  margin: 0 auto 2rem;
-} */
 
 footer small {
   color: #fff;
@@ -585,10 +547,7 @@ footer small a {
   color: #fff;
   text-decoration: underline;
 }
-/* end: footer section styles */
 
-/* start: search and embed video overlay styles */
-#search-container,
 #video-frame {
   background: #073B4C;
   position: fixed;
@@ -632,8 +591,7 @@ footer small a {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 
 }
-
-#search-container-hide, 
+ 
 #video-frame-hide {
   color: #fff;
   font-size: 1.75rem;
@@ -643,41 +601,7 @@ footer small a {
   cursor: pointer;
 }
 
-#search-container h3,
-.search-container-input {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  margin: -50px auto 0;
-  max-width: 500px;
-}
 
-#search-container h3 {
-  font-size: 2.5rem;
-  letter-spacing: 1px;
-  text-align: center;
-  margin: -125px auto 0;
-}
-
-.search-container-input input {
-  width: 100%;
-  height: 58px;
-  box-sizing: border-box;
-  font-size: 16px;
-  padding-left: 2rem;
-}
-
-.search-container-input button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-/* end: search and embed video overlay styles */
-
-/* start: media queries */
 @media (max-width: 992px) {
   h2 {
     font-size: 6rem;
@@ -689,24 +613,6 @@ footer small a {
 
   .plan-fit-logo {
     margin: 0 1rem;
-  }
-
-  .upcoming-classes-box {
-    padding: 2rem 1.5rem 0.5rem;
-  }
-
-  .upcoming-classes-box h4 {
-    margin-bottom: 1rem;
-  }
-
-  .membership-cards-box .inner-container {
-    padding: 0.5rem 1.5rem 1.5rem;
-    height: 100%;
-    box-sizing: border-box;
-  }
-
-  .membership-cards-box h2 {
-    font-size: 3.5rem;
   }
 
   .personal-trainer-box {
@@ -782,11 +688,6 @@ footer small a {
       font-size: 1.5rem;
     }
 
-    #search {
-      position: static;
-      font-size: 1.5rem;
-    }
-
     #hamburger-menu {
       display: block;
     }
@@ -799,48 +700,11 @@ footer small a {
       padding: 0 1rem;
     }
 
-    #schedule-services .flex {
-      width: 90%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    #schedule-services .flex > div.upcoming-classes-box,
-    #schedule-services .flex > div.membership-cards-box {
-      width: 48%;
-    }
-
-    #schedule-services .flex > div.personal-trainer-box {
-      width: 100%;
-      margin-top: 3rem;
-      background-size: cover;
-    }
-
-    .personal-trainer-box p {
-      font-size: 0.95rem;
-    }
-
-    .membership-cards-box .inner-container {
-      background-size: cover;
-    }
   }
 
   @media (max-width: 600px) {
     .video-frame-container {
       top: 30%;
-    }
-
-    #schedule-services .flex > div {
-      width: 100% !important;
-      margin-top: 3rem;
-    }
-
-    #schedule-services .flex > div:first-child {
-      margin-top: 0;
-    }
-
-    .membership-cards-box .inner-container {
-      min-height: 500px;
     }
 
     footer ul li a {
@@ -858,9 +722,6 @@ footer small a {
   }
 
   @media (max-width: 500px) {
-    .membership-cards-box .inner-container {
-      min-height: 400px;
-    }
 
     footer ul {
       flex-wrap: wrap;
@@ -872,4 +733,3 @@ footer small a {
     }
   }
 }
-/* end: media queries */
