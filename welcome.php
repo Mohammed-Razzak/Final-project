@@ -8,17 +8,7 @@ if (!isset($_SESSION['username'])) {
 
 ?>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-</head>
-<body>
-    <a href="logout.php">Logout</a>
-</body>
-</html> -->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +35,6 @@ if (!isset($_SESSION['username'])) {
         </div>
 
         <?php echo "<h1>Welcome " . $_SESSION['username'] . "</h1>"; ?>
-<!-- <a href="logout.php">Logout</a> -->
 
         <nav>
           <ul class="flex">
@@ -55,11 +44,7 @@ if (!isset($_SESSION['username'])) {
             <li id="header-logo" class="plan-fit-logo"><a href="welcome.php">Plan<br/>Fit</a></li>
             <li><a href="#">Build muscle</a></li>
             <li><a href="#">Equipment</a></li>
-            <!-- <li><a href="#">Gyms for you</a></li> -->
             <li><a href="logout.php">Logout</a></li>
-            <!-- <li>
-              <button id="search"><span class="fa fa-search"></span></button>
-            </li> -->
           </ul>
         </nav>
 
@@ -284,14 +269,9 @@ if (!isset($_SESSION['username'])) {
           <li><a href="#">Gain weight</a></li>
           <li><a href="#">Build muscle</a></li>
           <li><a href="#">Equipment</a></li>
-          <!-- <li><a href="#">Gyms for you</a></li> -->
         </ul>
       </nav>
 
-      <!-- <div class="mailing-list">
-        <input type="text" placeholder="YOUR EMAIL" />
-        <button>SIGN UP</button>
-      </div> -->
 
       <ul class="social-icons">
         <li><a href="https://www.instagram.com/" target="blank"><span class="fab fa-instagram fa-2x"></span></a></li>
@@ -305,14 +285,7 @@ if (!isset($_SESSION['username'])) {
     </div>
   </footer>
 
-  <!-- <div id="search-container">
-    <span id="search-container-hide" class="fa fa-times"></span>
-    <h3>Search</h3>
-    <div class="search-container-input">
-      <input type="text" name="search" placeholder="Search this site" />
-      <button>Search</button>
-    </div>
-  </div> -->
+
 
   <div id="video-frame">
     <span id="video-frame-hide" class="fa fa-times"></span>
