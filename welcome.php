@@ -9,7 +9,6 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -120,36 +119,6 @@ if (!isset($_SESSION['username'])) {
     </div>
   </section>
 
-  <!-- <section id="services">
-    <h3>Services</h3>
-    <div class="flex container">
-      <div class="box">
-        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-1.png" alt="Basketball Icon" />
-        <h4>Pilates</h4>
-        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
-      </div>
-
-      <div class="box">
-        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-2.png" alt="Bench Press Icon" />
-        <h4>Free Lifting</h4>
-        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
-      </div>
-
-      <div class="box">
-        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-3.png" alt="Stopwatch Icon" />
-        <h4>Yoga</h4>
-        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
-      </div>
-
-      <div class="box">
-        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-4.png" alt="Mp3 Player Icon" />
-        <h4>Spinning</h4>
-        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
-      </div>
-    </div>
-
-    <button>See All Services</button>
-  </section> -->
 
   <section id="trainers">
     <h5>Get advice and inspiration from</h5>
@@ -195,66 +164,6 @@ if (!isset($_SESSION['username'])) {
     </div>
   </section>
   
-  <!-- <section id="schedule-services">
-    <div class="flex container">
-      <div class="upcoming-classes-box">
-        <strong>NEXT</strong>
-        <h4>Upcoming Classes</h4>
-        <table>
-          <tr>
-            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
-            <td>Gym Fitness</td>
-            <td>11:00 - 12:00</td>
-          </tr>
-
-          <tr>
-            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
-            <td>Pilates</td>
-            <td>12:00 - 1:00</td>
-          </tr>
-
-          <tr>
-            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
-            <td>Spinning</td>
-            <td>1:00 - 2:00</td>
-          </tr>
-
-          <tr>
-            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
-            <td>Yoga</td>
-            <td>2:00 - 3:00</td>
-          </tr>
-
-          <tr>
-            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
-            <td>Zumba</td>
-            <td>3:00 - 4:00</td>
-          </tr>
-
-          <tr>
-            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
-            <td>Cardio Kickbox</td>
-            <td>4:00 - 5:00</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="membership-cards-box">
-        <div class="inner-container">
-          <strong>NEXT</strong>
-          <h4>Membership Deals</h4>
-          <h2>25% <span>Discount</span></h2>
-        </div>
-      </div>
-
-      <div class="personal-trainer-box">
-        <strong>BECOME A</strong>
-        <h4>Personal Trainer</h4>
-        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
-        <button>Sign Up Now</button>
-      </div>
-    </div>
-  </section> -->
 
   <footer>
     <div class="footer-container">
@@ -355,21 +264,7 @@ if (!isset($_SESSION['username'])) {
         headerNav.toggle();
       });
 
-      // search.on('click', () => {
-      //   searchContainer.css({
-      //     'opacity': '1',
-      //     'visibility': 'visible',
-      //     'z-index': '100'
-      //   });
-      // });
 
-      // searchContainerHide.on('click', () => {
-      //   searchContainer.css({
-      //     'opacity': '0',
-      //     'visibility': 'hidden',
-      //     'z-index': '0'
-      //   });
-      // });
 
       youtubeButton.on('click', () => {
         videoFrame.css({
