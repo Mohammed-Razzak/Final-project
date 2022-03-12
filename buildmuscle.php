@@ -56,7 +56,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <div id="hero-slider">
-      <div class="hero-slide-item" style="background-image:url(images/cardio.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/Weights.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Lose Weight</h2>
@@ -64,7 +64,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(./images/man-dumbell.jfif);">
+      <div class="hero-slide-item" style="background-image:url(images/woman-lifting.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Build Muscle</h2>
@@ -72,7 +72,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(images/dwayne-johnson.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/angry.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Gain Weight</h2>
@@ -225,7 +225,7 @@ if (!isset($_SESSION['username'])) {
         arrows: false,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2650,
         pauseOnFocus: false,
         pauseOnHover: false,
         fade: true,
