@@ -17,7 +17,7 @@ if (!isset($_SESSION['username'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PlanFit - Ultimate guide to fitness</title>
+  <title>PlanFit - Lose weight</title>
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
@@ -41,9 +41,9 @@ if (!isset($_SESSION['username'])) {
           <ul class="flex">
             <li><a href="welcome.php">Home</a></li>
             <li><a href="loseweight.php">Lose weight</a></li>
-            <li><a href="#">Gain weight</a></li>
+            <li><a href="gainweight.php">Gain weight</a></li>
             <li id="header-logo" class="plan-fit-logo"><a href="welcome.php">Plan<br/>Fit</a></li>
-            <li><a href="#">Build muscle</a></li>
+            <li><a href="buildmuscle.php">Build muscle</a></li>
             <li><a href="#">Equipment</a></li>
             <li><a href="logout.php">Logout</a></li>
           </ul>
@@ -58,7 +58,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <div id="hero-slider">
-      <div class="hero-slide-item" style="background-image:url(images/cardio.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/woman-back-muscle.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Lose Weight</h2>
@@ -66,7 +66,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(./images/man-dumbell.jfif);">
+      <div class="hero-slide-item" style="background-image:url(images/apples.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Build Muscle</h2>
@@ -74,7 +74,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(images/dwayne-johnson.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/treadmill-gym.jpeg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Gain Weight</h2>
@@ -176,9 +176,9 @@ if (!isset($_SESSION['username'])) {
       <nav>
         <ul>
           <li><a href="welcome.php">Home</a></li>
-          <li><a href="#">Lose weight</a></li>
-          <li><a href="#">Gain weight</a></li>
-          <li><a href="#">Build muscle</a></li>
+          <li><a href="loseweight.php">Lose weight</a></li>
+          <li><a href="gainweight.php">Gain weight</a></li>
+          <li><a href="buildmuscle.php">Build muscle</a></li>
           <li><a href="#">Equipment</a></li>
         </ul>
       </nav>
@@ -202,10 +202,11 @@ if (!isset($_SESSION['username'])) {
     <span id="video-frame-hide" class="fa fa-times"></span>
     <div class="video-frame-container">
       <div class="video-frame-scaler">
-        <iframe style="border: 0px" src="https://www.youtube.com/embed/V2EfL1j4KYE?rel=0&modestbranding=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="border: 0px" src="https://www.youtube.com/embed/wnHW6o8WMas" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
+
 
   <script>
     // document ready function
@@ -226,7 +227,7 @@ if (!isset($_SESSION['username'])) {
         arrows: false,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2600,
         pauseOnFocus: false,
         pauseOnHover: false,
         fade: true,

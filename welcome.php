@@ -39,9 +39,9 @@ if (!isset($_SESSION['username'])) {
           <ul class="flex">
             <li><a href="welcome.php">Home</a></li>
             <li><a href="loseweight.php">Lose weight</a></li>
-            <li><a href="#">Gain weight</a></li>
+            <li><a href="gainweight.php">Gain weight</a></li>
             <li id="header-logo" class="plan-fit-logo"><a href="welcome.php">Plan<br/>Fit</a></li>
-            <li><a href="#">Build muscle</a></li>
+            <li><a href="buildmuscle.php">Build muscle</a></li>
             <li><a href="#">Equipment</a></li>
             <li><a href="logout.php">Logout</a></li>
           </ul>
@@ -174,9 +174,9 @@ if (!isset($_SESSION['username'])) {
       <nav>
         <ul>
           <li><a href="welcome.php">Home</a></li>
-          <li><a href="#">Lose weight</a></li>
-          <li><a href="#">Gain weight</a></li>
-          <li><a href="#">Build muscle</a></li>
+          <li><a href="loseweight.php">Lose weight</a></li>
+          <li><a href="gainweight.php">Gain weight</a></li>
+          <li><a href="buildmuscle.php">Build muscle</a></li>
           <li><a href="#">Equipment</a></li>
         </ul>
       </nav>
@@ -224,7 +224,7 @@ if (!isset($_SESSION['username'])) {
         arrows: false,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2600,
         pauseOnFocus: false,
         pauseOnHover: false,
         fade: true,

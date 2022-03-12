@@ -1,5 +1,5 @@
 <!-- These are the connections to my databases one of which is on my local machine -->
-<!-- The other connection is the remote connection my database for when I deploy the application online -->
+
 
 <?php 
 //local development database connection
@@ -18,7 +18,7 @@ if (!$conn) {
 
 ?>
 
-
+<!-- The other connection is the remote connection my database for when I deploy the application online -->
 
 <!-- // Remote database connection
 // $server = "remotemysql.com";
