@@ -80,11 +80,11 @@
 .container-register .login-email .input-group .btn:hover {
   transform: translateY(-5px);
   background: #42b18e;
-}
+} */
 
-/* This is the styling for the login form on the client side*/
 
-#login-body {
+
+ #login-body {
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(images/dumbell-background.jpg);
@@ -599,7 +599,7 @@ footer small a {
   top: 30px;
   right: 30px;
   cursor: pointer;
-}
+} 
 
 
 @media (max-width: 992px) {

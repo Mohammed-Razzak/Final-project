@@ -44,7 +44,7 @@ if (!isset($_SESSION['username'])) {
             <li><a href="gainweight.php">Gain weight</a></li>
             <li id="header-logo" class="plan-fit-logo"><a href="welcome.php">Plan<br/>Fit</a></li>
             <li><a href="buildmuscle.php">Build muscle</a></li>
-            <li><a href="#">Equipment</a></li>
+            <li><a href="equipment.php">Equipment</a></li>
             <li><a href="logout.php">Logout</a></li>
           </ul>
         </nav>
@@ -179,7 +179,7 @@ if (!isset($_SESSION['username'])) {
           <li><a href="loseweight.php">Lose weight</a></li>
           <li><a href="gainweight.php">Gain weight</a></li>
           <li><a href="buildmuscle.php">Build muscle</a></li>
-          <li><a href="#">Equipment</a></li>
+          <li><a href="equipment.php">Equipment</a></li>
         </ul>
       </nav>
 
