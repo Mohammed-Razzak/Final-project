@@ -20,6 +20,7 @@ if (!isset($_SESSION['username'])) {
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
@@ -163,6 +164,33 @@ if (!isset($_SESSION['username'])) {
       </div>
     </div>
   </section>
+
+  <section id="generator">
+  <body>
+        <div class="main-container">
+            <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+            </h1>
+            <p class="author" id="author"></p>
+            
+            <hr/>
+            <div class="quote-generator-buttons">
+                <a class="twitter" id="tweet" data-size="large" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                
+                <!--add an onclick event on 'next quote' button-->
+                <button class="next" onclick="getNewQuote()">New quote</button>
+            </div>
+        </div>
+
+        <!--LINK CUSTOM JS FILE-->
+        <script src="script.js"></script>
+    </body>
+
+
+
+</section>
   
 
   <footer>
@@ -224,7 +252,7 @@ if (!isset($_SESSION['username'])) {
         arrows: false,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 2650,
+        autoplaySpeed: 2000,
         pauseOnFocus: false,
         pauseOnHover: false,
         fade: true,

@@ -224,7 +224,7 @@ if (!isset($_SESSION['username'])) {
         arrows: false,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 2650,
+        autoplaySpeed: 2000,
         pauseOnFocus: false,
         pauseOnHover: false,
         fade: true,
