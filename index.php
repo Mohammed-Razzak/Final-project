@@ -2,7 +2,7 @@
 
 <!-- This is the login page where only registered users can login and view the web application -->
 
-<!-- Below is the php code for the verification of users and would fetch user data from mySQL database -->
+<!-- Below is the php code for the verification of users and would fetch user data from the database -->
 
 <?php 
 

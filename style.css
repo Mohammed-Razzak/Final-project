@@ -210,6 +210,20 @@ h2 {
  font-size: 8rem;
 }
 
+.beginner-header{
+  font-size: 30px;
+}
+
+.beginner-workout{
+  font-size: 1.5rem;
+}
+
+.beginner-images{
+  margin: 20px;
+  border-radius: 20px
+
+}
+
 h3 {
  font-size: 2.85rem;
  letter-spacing: 7px;
@@ -245,6 +259,26 @@ button {
  border-radius: 30px;
 }
 
+.btn1{
+  cursor: pointer;
+  background: #40826d;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Roboto', 'Helvetica', 'Sans-serif';
+  letter-spacing: 1.5px;
+  border-radius: 20px;
+ }
+
+ .btn1:hover{
+  box-shadow: 0 5px 5px rgb(16, 189, 145);
+ }
+
+
 a {
  text-decoration: none;
 }
@@ -278,6 +312,7 @@ section, footer {
 .box {
  text-align: center;
 }
+
 
 #hero {
  position: relative;
@@ -400,11 +435,11 @@ header nav ul li a {
  border-color: #fff;
 }
 
-#features .box {
+#features .box  {
  width: 31%;
 }
 
-#features .box > img {
+#features .box > img  {
  width: 100%;
 }
 
@@ -428,6 +463,7 @@ header nav ul li a {
  vertical-align: middle;
  color: white;
 }
+
 
 #trainers {
  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(images/viridian.jpg) top center no-repeat;
@@ -598,6 +634,7 @@ footer small a {
  right: 30px;
  cursor: pointer;
 } 
+
 
 
 @media (max-width: 992px) {

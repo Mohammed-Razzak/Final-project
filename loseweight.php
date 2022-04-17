@@ -85,15 +85,22 @@ if (!isset($_SESSION['username'])) {
   </section>
 
   <section id="features">
+  <h1>Guide for losing weight</h1>
+  <br></br>
     <div class="flex container">
       <div class="box">
-        <img src="images/fitness-class.jpg" alt="Exercise Class" />
+   
+
+      <img src="images/workout-plan.jpg" alt="Exercise Class"/>
+        
         <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-award fa-3x"></i>
+          <div class="icon"> 
+            <i class="fas fa-award fa-3x"></i> 
           </div>
-          <h4>Workout plans</h4>
-          <p>Get the best evidence-backed workout plans that professional athletes follow. These workout plans have proven to be effective in long term fitness. </p>
+          <h4>Beginner exercises</h4>
+          <p>Click below for workouts and mental health exercises which you can do at home right now! </p>
+
+          <button class="btn1" onclick="window.location.href='loseweight-beginner.php'">Workouts here</button>
         </div>
       </div>
 
@@ -103,8 +110,9 @@ if (!isset($_SESSION['username'])) {
           <div class="icon">
             <i class="fas fa-dumbbell fa-3x" ></i>
           </div>
-          <h4>Equipment recommendations</h4>
-          <p>The essential equipment you need to take your fitness journey to the next level from strong wrist supports for easy lifting to the affordable home dumbells. </p>
+          <h4>Advanced exercises</h4>
+          <p>Here are the advanced workouts you can try when you're finished with the beginner workouts </p>
+          <button class="btn1">Advanced workouts</button>
         </div>
       </div>
 
@@ -115,7 +123,8 @@ if (!isset($_SESSION['username'])) {
             <i class="fas fa-apple-alt fa-3x"></i>
           </div>
           <h4>Diet plans</h4>
-          <p>Get the best diet plans recommended from sports nutritionists for all types of people including vegetarians and vegans.</p>
+          <p>Here is the best food plans for losing weight whether you're vegan or not, we got you covered!</p>
+          <button class="btn1">Food plans here</button>
         </div>
       </div>
     </div>

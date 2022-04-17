@@ -9,18 +9,19 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PlanFit - Ultimate guide to fitness</title>
+  <title>PlanFit - Lose weight workout</title>
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="style1.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
@@ -57,7 +58,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <div id="hero-slider">
-      <div class="hero-slide-item" style="background-image:url(images/cardio.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/woman-back-muscle.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Lose Weight</h2>
@@ -65,7 +66,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(./images/man-dumbell.jfif);">
+      <div class="hero-slide-item" style="background-image:url(images/apples.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Build Muscle</h2>
@@ -73,7 +74,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(images/dwayne-johnson.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/treadmill-gym.jpeg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Gain Weight</h2>
@@ -83,42 +84,73 @@ if (!isset($_SESSION['username'])) {
     </div>
   </section>
 
-  <section id="features">
-    <div class="flex container">
-      <div class="box">
-        <img src="images/fitness-class.jpg" alt="Exercise Class" />
-        <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-award fa-3x"></i>
-          </div>
-          <h4>Workout plans</h4>
-          <p>Get the best evidence-backed workout plans that professional athletes follow. These workout plans have proven to be effective in long term fitness. </p>
-        </div>
-      </div>
+  <section id="workouts-beginner">
+  
 
-      <div class="box">
-        <img src="images/equipment-gym.jpg" alt="Gym equipment" />
-        <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-dumbbell fa-3x" ></i>
-          </div>
-          <h4>Equipment recommendations</h4>
-          <p>The essential equipment you need to take your fitness journey to the next level from strong wrist supports for easy lifting to the affordable home dumbells. </p>
-        </div>
-      </div>
+<h1>Beginner Workouts</h1>
 
-      <div class="box">
-        <img src="images/dietplan.jpg" alt="healthy food" />
-        <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-apple-alt fa-3x"></i>
-          </div>
-          <h4>Diet plans</h4>
-          <p>Get the best diet plans recommended from sports nutritionists for all types of people including vegetarians and vegans.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+<h2 class="beginner-header">Warm up and complete three rounds without a rest</h2>
+
+
+<img class="Beginner-images" src="images/walkout.jpg" alt="woman-warmup" style="float:left" height="450px" width="580px">
+
+<p class="beginner-workout">
+This is the hand walkout which is a core strength exercise. 
+The first step is from standing, bend down, place your hands on the floor and walk your hands out to 
+a high plank position (hands under your shoulders, arms extended, 
+with your body forming a straight line from your head to heels), 
+then walk your hands back to your feet and stand up. 3 reps as a warm up.
+</p>
+<br></br>
+<br></br>
+<br></br>
+<h2 class="beginner-header">Shoulder taps</h2>
+
+<img class="beginner-images" src="images/shoulder tap.gif" alt="woman-warmup" style="float:right" height="450px" width="580px">
+
+<p class="beginner-workout">
+In a high plank position, reach up with your left hand
+and tap your right shoulder, then use your right hand to tap your left shoulder.
+The movement involved in the exercise is a simple one. 
+Raise one hand off the floor and move it up and across to tap the opposite shoulder, then repeat on the opposite side.
+ Move deliberately, and engage your core and glutes to ensure that your hips don’t rock from side to side as you move your arms. This workout should be done for 30 seconds.
+</p>
+<br></br>
+<br></br>
+<h2 class="beginner-header">Modified push-up</h2>
+
+<img class="beginner-images" src="images/Modified_Pushup.gif" alt="woman-warmup" style="float:left" height="420px" width="520px">
+
+<p class="beginner-workout">
+Begin by getting down on yours hands and knees with your hands just outside shoulder width and slightly forward of your shoulders.
+ Your knees should be directly aligned with your hips. Keep your abdomen tight and your spine in a neutral position.
+ If you can’t go to 90 degrees at the elbow, just go to a comfortable position until you can work up to 90 degrees.
+  Push up so that your arms are straight, making sure your elbows aren’t completely locked. 
+   Try doing 2 sets of 15 repetitions. Make sure you contract your abdominal muscles and keep them tight throughout the exercise.
+  
+
+</p>
+
+<br></br>
+
+<h2 class="beginner-header">Beginner workout video help</h2>
+
+
+<div class="iframe-container">
+<iframe width="700" height="400" src="https://www.youtube.com/embed/ixkQaZXVQjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<h2 class="beginner-header">Mental health exercises</h2>
+<p class="beginner-workout">
+Begin by getting down on yours hands and knees with your hands just outside shoulder width and slightly forward of your shoulders.
+ Your knees should be directly aligned with your hips. Keep your abdomen tight and your spine in a neutral position.
+ If you can’t go to 90 degrees at the elbow, just go to a comfortable position until you can work up to 90 degrees.
+  Push up so that your arms are straight, making sure your elbows aren’t completely locked. Try doing 2 sets of 15 repetitions.
+</p>
+
+
+
+</section>
 
 
   <section id="trainers">
@@ -164,34 +196,6 @@ if (!isset($_SESSION['username'])) {
       </div>
     </div>
   </section>
-
-  <section id="generator">
-  <body>
-        <div class="main-container">
-            <h1>
-            <i class="fas fa-quote-left"></i>
-            <span class="quote" id="quote"></span>
-            <i class="fas fa-quote-right"></i>
-            </h1>
-            <p class="author" id="author"></p>
-            
-            <hr/>
-            <div class="quote-generator-buttons">
-                <a class="twitter" id="tweet" data-size="large" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                
-                <!--add an onclick event on 'next quote' button-->
-                <button class="next" onclick="getNewQuote()">New quote</button>
-            </div>
-        </div>
-
-        <!--LINK CUSTOM JS FILE-->
-        <script src="script.js"></script>
-    </body>
-
-
-
-
-</section>
   
 
   <footer>
@@ -229,10 +233,11 @@ if (!isset($_SESSION['username'])) {
     <span id="video-frame-hide" class="fa fa-times"></span>
     <div class="video-frame-container">
       <div class="video-frame-scaler">
-        <iframe style="border: 0px" src="https://www.youtube.com/embed/V2EfL1j4KYE?rel=0&modestbranding=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="border: 0px" src="https://www.youtube.com/embed/wnHW6o8WMas" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
+
 
   <script>
     // document ready function
