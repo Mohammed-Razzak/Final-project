@@ -17,7 +17,7 @@ if (!isset($_SESSION['username'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PlanFit - Lose weight Beginner Workouts</title>
+  <title>PlanFit - Lose Weight Food Plans</title>
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
@@ -87,92 +87,104 @@ if (!isset($_SESSION['username'])) {
   <section id="workouts-beginner">
   
 
-<h1>Beginner Workouts</h1>
+<h1>Diet Plans for Losing Weight</h1>
 
-<h2 class="beginner-header">Warm up and complete three rounds without a rest</h2>
+<br></br>
+
+<h2 class="beginner-header">Vegan Diet Plan 7 days</h2>
 
 
-<img class="Beginner-images" src="images/walkout.jpg" alt="woman-warmup" style="float:left" height="450px" width="580px">
+<img class="beginner-images" src="images/vegan.jpg" alt="woman-warmup" style="float:left" height="400px" width="500px">
 
 <p class="beginner-workout">
-This is the hand walkout which is a core strength exercise. 
-The first step is from standing, bend down, place your hands on the floor and walk your hands out to 
-a high plank position (hands under your shoulders, arms extended, 
-with your body forming a straight line from your head to heels), 
-then walk your hands back to your feet and stand up. 3 reps as a warm up.
+<strong>Monday
+Breakfast:</strong> Oatmeal with fresh fruit
 </p>
-<br></br>
-<br></br>
-<br></br>
-<h2 class="beginner-header">Shoulder taps</h2>
-
-<img class="beginner-images" src="images/shoulder tap.gif" alt="woman-warmup" style="float:right" height="450px" width="580px">
-
 <p class="beginner-workout">
-In a high plank position, reach up with your left hand
-and tap your right shoulder, then use your right hand to tap your left shoulder.
-The movement involved in the exercise is a simple one. 
-Raise one hand off the floor and move it up and across to tap the opposite shoulder, then repeat on the opposite side.
- Move deliberately, and engage your core and glutes to ensure that your hips don’t rock from side to side as you move your arms. This workout should be done for 30 seconds.
+<strong>Lunch:</strong> Baked sweet potato with hummus and fresh vegetables
 </p>
-<br></br>
-<br></br>
-<h2 class="beginner-header">Modified push-up</h2>
-
-<img class="beginner-images" src="images/Modified_Pushup.gif" alt="woman-warmup" style="float:left" height="420px" width="520px">
-
 <p class="beginner-workout">
-Begin by getting down on yours hands and knees with your hands just outside shoulder width and slightly forward of your shoulders.
- Your knees should be directly aligned with your hips. Keep your abdomen tight and your spine in a neutral position.
- If you can’t go to 90 degrees at the elbow, just go to a comfortable position until you can work up to 90 degrees.
-  Push up so that your arms are straight, making sure your elbows aren’t completely locked. 
-   Try doing 2 sets of 15 repetitions. Make sure you contract your abdominal muscles and keep them tight throughout the exercise.
-  
-
+<strong>Dinner:</strong> Bean burger with salad
+</p>
+<p class="beginner-workout">
+<strong>Tuesday
+Breakfast:</strong> Half an avocado on wholegrain toast with tomatoes
+<p class="beginner-workout">
+<strong>Lunch:</strong> Garbanzo bean salad, loaded with green leaves, salad vegetables and zinged with lemon zest
+</p>
+<p class="beginner-workout">
+<strong>Dinner:</strong> Roasted cauliflower with garlic and pine nuts, and drizzled in tahini, served with a grain
+</p>
+<p class="beginner-workout">
+<strong> Wednesday Breakfast:</strong> Vegan apple pancakes with berries
+</p>
+<img class="beginner-images" src="images/vegan-plan.jpg" alt="woman-warmup" style="float:right" height="400px" width="500px">
+<p class="beginner-workout">
+<strong>Lunch:</strong> Mexican quinoa salad
+</p>
+<p class="beginner-workout">
+<strong>Dinner :</strong> Shepherd’s pie, made with brown lentils and topped with sweet potato mash
+</p>
+<p class="beginner-workout">
+<strong>Thursday
+Breakfast:</strong> Oatmeal with fresh fruit
+<p class="beginner-workout">
+<strong>Lunch:</strong> Three bean soup with wholegrain bread
+</p>
+<p class="beginner-workout">
+<strong>Dinner:</strong> Falafel with tahini-lime sauce and fresh mixed salad
+</p>
+<p class="beginner-workout">
+<strong>Friday
+Breakfast:</strong> Smoothie, using up any fruits and vegetables you have, and a tablespoon of nut butter
+</p>
+<p class="beginner-workout">
+<strong>Lunch:</strong> Wholewheat tortilla packed with mashed black beans (seasoned with cumin, salt and lime) and arugula
+</p>
+<p class="beginner-workout">
+<strong>Dinner:</strong> Lentil chilli with wholegrain rice
+</p>
+<p class="beginner-workout">
+<strong>Saturday
+Breakfast:</strong> Peanut butter and banana on toast
+</p>
+<p class="beginner-workout">
+<strong>Lunch:</strong> Miso soup with tofu and scallions
+</p>
+<p class="beginner-workout">
+<strong>Dinner:</strong> Buddha Bowl – your choice of cooked and raw vegetables, tofu, and grains, with a peanut sauce
+</p>
+<p class="beginner-workout">
+<strong>Sunday
+Breakfast:</strong> Tofu scramble made with bell peppers, green onions, tomatoes and herbs
+</p>
+<p class="beginner-workout">
+<strong>Lunch:</strong> Tomato and red lentil soup
+</p>
+<p class="beginner-workout">
+<strong>Dinner:</strong> Thai green curry with tofu and Asian vegetables
 </p>
 
 <br></br>
 
-<h2 class="beginner-header">Beginner workout video help</h2>
+<h2 class="beginner-header">Weight loss nutrition help</h2>
 
 <div class="iframe-container">
-<iframe width="700" height="400" src="https://www.youtube.com/embed/ixkQaZXVQjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/LCyECbA3pUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br></br>
 
-<h1>Mental health exercises</h1>
-
-<h2 class="beginner-header">Yoga</h2>
-<img class="beginner-images" src="images/yoga.jpg" alt="woman-warmup" style="float:right" height="250px" width="350px">
-<p class="beginner-workout">
-According to clinical research,
- yoga may help strengthen social attachments, reduce stress and relieve anxiety,
-  depression and insomnia. Reducing stress levels may be beneficial for those who have uncontrollable negative thoughts,
-  which can occur in people with anxiety, depression, and other mental illnesses.
-</p>
-
+<h1>Food recipe books for losing weight</h1>
 <br></br>
 
-
-<h2 class="beginner-header">Cycling</h2>
-<img class="beginner-images" src="images/cycling.jpg" alt="woman-warmup" style="float:left" height="250px" width="350px">
+<h2 class="beginner-header">Deliciously Ella Quick & Easy: Plant-based Deliciousness</h2>
+<img class="beginner-images" src="images/deliciously-ella.jpg" alt="woman-warmup" style="float:left" height="450px" width="400px">
 <p class="beginner-workout">
-Cycling has multiple mental health benefits, 
-including reducing stress, anxiety, and depression.
-The article also notes that cycling can help you with your mindfulness practice, make improvements to your self-esteem, defend against cognitive decline, and help you to socialize.
+Ella's latest book features the most popular, tried-and-tested recipes from her supper clubs, pop-ups, and deli to show how delicious and abundant plant-based cooking can be. These simple vegan recipes cover everything from colorful salads to veggie burgers, falafel, creamy dips and sides, hearty one-pot curries and stews, speedy breakfasts, weekend brunches, muffins, cakes, and brownies. They're the recipes that Ella's thousands of customers have been asking for since the deli first launched in 2015, and each recipe has a beautiful photograph to show you how it should look.
+In addition to the more than 100 brand-new plant-based recipes, for the first time we are treated to a personal insight into Ella's journey--how she grew her blog, which she began writing to help get herself well while suffering from illness, into a wellness brand--and all that she has learned along the way, as well as what drives the Deliciously Ella philosophy and her team's passion for creating delicious, healthy food.
 </p>
-
-
-<br></br>
-
-<h2 class="beginner-header">Boxing</h2>
-<img class="beginner-images" src="images/boxing.jpg" alt="woman-warmup" style="float:right" height="250px" width="350px">
-<p class="beginner-workout">
-The rumours that hitting a punchbag releases stress and anger is true. Finding an outlet for aggression can be both empowering and healing. Short, sharp 'rounds' of punching, followed by rest, results in an intense interval session, which releases endorphins.
-
-If you 'spar' with another boxer you can achieve 'flow', in which you are focussed solely on the task at hand/present moment; a state that everyone from Buddhist monks to Olympic athletes champion.
-</p>
+<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Deliciously-Ella-Plant-Based-Cookbook-cookbook/dp/1473639212', '_blank')">Get it here</button>
 
 <br></br>
 <button class="btn1" onclick="window.location.href='loseweight.php'">Go back</button>

@@ -90,8 +90,9 @@ if (!isset($_SESSION['username'])) {
           <div class="icon">
             <i class="fas fa-award fa-3x"></i>
           </div>
-          <h4>Workout plans</h4>
-          <p>Get the best evidence-backed workout plans that professional athletes follow. These workout plans have proven to be effective in long term fitness. </p>
+          <h4>Gain weight beginner workouts</h4>
+          <p>These are beginner workouts to start with, for those with the goal of gaining weight and want to get started. </p>
+          <button class="btn1" onclick="window.location.href='gainweight-beginner.php'">Beginner</button>
         </div>
       </div>
 

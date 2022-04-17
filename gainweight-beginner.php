@@ -9,15 +9,13 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PlanFit - Lose weight Beginner Workouts</title>
+  <title>PlanFit - Gain weight</title>
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
@@ -58,7 +56,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <div id="hero-slider">
-      <div class="hero-slide-item" style="background-image:url(images/woman-back-muscle.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/healthy-eating.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Lose Weight</h2>
@@ -66,7 +64,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(images/apples.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/stretch.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Build Muscle</h2>
@@ -74,7 +72,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(images/treadmill-gym.jpeg);">
+      <div class="hero-slide-item" style="background-image:url(images/old-man.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Gain Weight</h2>
@@ -87,92 +85,79 @@ if (!isset($_SESSION['username'])) {
   <section id="workouts-beginner">
   
 
-<h1>Beginner Workouts</h1>
+<h1>Beginner workout for gaining weight</h1>
 
-<h2 class="beginner-header">Warm up and complete three rounds without a rest</h2>
+<h2 class="beginner-header">Pull ups</h2>
 
 
-<img class="Beginner-images" src="images/walkout.jpg" alt="woman-warmup" style="float:left" height="450px" width="580px">
+<img class="beginner-images" src="images/pull-ups.gif" alt="woman-warmup" style="float:left" height="400px" width="500px">
 
 <p class="beginner-workout">
-This is the hand walkout which is a core strength exercise. 
-The first step is from standing, bend down, place your hands on the floor and walk your hands out to 
-a high plank position (hands under your shoulders, arms extended, 
-with your body forming a straight line from your head to heels), 
-then walk your hands back to your feet and stand up. 3 reps as a warm up.
+Pull-ups, particularly with weights, are an excellent method to bulk up your muscles. If you're a novice, start with basic pull-ups and progress to weighted pull-ups as your strength improves.
+ You may use a pull-up bar if you're practising this weight gain workout at home. With your palms facing away from you and arms shoulder-width apart, grab the pull-up bar with both your hands.
+ Pull yourself up to the point where your feet aren't touching the ground, and keep going until your chin is clear of the bar.
+ Slowly lower yourself until your arms are straight once again.
+
+</p>
+<br></br>
+<h2 class="beginner-header">Side Plank</h2>
+
+<img class="beginner-images" src="images/side-plank.jpg" alt="woman-warmup" style="float:right" height="390px" width="530px">
+
+<p class="beginner-workout">
+Start by lying on your side, legs straight, feet stacked. Straighten bottom arm, keeping it in line below shoulder, and place free hand on your hip.
+Flex feet and balance on sides of feet (feet are stacked). Use abs to keep hips lifted. Hold for 30 seconds. Work up to 1-3 minutes. Don't allow hips to drop to the ground. Keep breathing steady.
 </p>
 <br></br>
 <br></br>
-<br></br>
-<h2 class="beginner-header">Shoulder taps</h2>
+<h2 class="beginner-header">Dumbbell squat & press</h2>
 
-<img class="beginner-images" src="images/shoulder tap.gif" alt="woman-warmup" style="float:right" height="450px" width="580px">
-
-<p class="beginner-workout">
-In a high plank position, reach up with your left hand
-and tap your right shoulder, then use your right hand to tap your left shoulder.
-The movement involved in the exercise is a simple one. 
-Raise one hand off the floor and move it up and across to tap the opposite shoulder, then repeat on the opposite side.
- Move deliberately, and engage your core and glutes to ensure that your hips don’t rock from side to side as you move your arms. This workout should be done for 30 seconds.
-</p>
-<br></br>
-<br></br>
-<h2 class="beginner-header">Modified push-up</h2>
-
-<img class="beginner-images" src="images/Modified_Pushup.gif" alt="woman-warmup" style="float:left" height="420px" width="520px">
+<img class="beginner-images" src="images/dumbbellsquatandpress.gif" alt="woman-warmup" style="float:left" height="420px" width="520px">
 
 <p class="beginner-workout">
-Begin by getting down on yours hands and knees with your hands just outside shoulder width and slightly forward of your shoulders.
- Your knees should be directly aligned with your hips. Keep your abdomen tight and your spine in a neutral position.
- If you can’t go to 90 degrees at the elbow, just go to a comfortable position until you can work up to 90 degrees.
-  Push up so that your arms are straight, making sure your elbows aren’t completely locked. 
-   Try doing 2 sets of 15 repetitions. Make sure you contract your abdominal muscles and keep them tight throughout the exercise.
+Stand tall with back and legs straight, feet hip-distance apart, toes pointing forward.
+ Hold dumbbells in front of shoulders, elbows bent, palms facing outward.
+ Bend knees and hips to squat down, keeping chest lifted, back straight and knees behind your toes.
+ Straighten legs to starting position. Press weights overhead in line with shoulders to straighten (but not lock) the arms, palms facing outward.
+ Slowly lower weights back down in front of shoulders to complete one rep. Keep shoulders relaxed away from your ears on overhead press. Try to avoid leaning forward during squat.
   
 
 </p>
 
 <br></br>
 
-<h2 class="beginner-header">Beginner workout video help</h2>
+<h2 class="beginner-header">Video help for gaining weight</h2>
 
 <div class="iframe-container">
-<iframe width="700" height="400" src="https://www.youtube.com/embed/ixkQaZXVQjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/1Q6ij1qSrrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br></br>
 
-<h1>Mental health exercises</h1>
+<h1>Mental health book recommendations</h1>
+<br></br>
 
-<h2 class="beginner-header">Yoga</h2>
-<img class="beginner-images" src="images/yoga.jpg" alt="woman-warmup" style="float:right" height="250px" width="350px">
+<h2 class="beginner-header">Mental Fitness by Ant Middleton</h2>
+<img class="beginner-images" src="images/ant-middleton.jpg" alt="woman-warmup" style="float:left" height="350px" width="400px">
 <p class="beginner-workout">
-According to clinical research,
- yoga may help strengthen social attachments, reduce stress and relieve anxiety,
-  depression and insomnia. Reducing stress levels may be beneficial for those who have uncontrollable negative thoughts,
-  which can occur in people with anxiety, depression, and other mental illnesses.
+The brilliant new book from the multiple Sunday Times bestselling author that will explain the principles behind maintaining a healthy mind and body.
+The mind and body are often talked about as separate entities, but it’s only when they work in harmony with one another that one can truly push oneself to the highest heights.
+In his new book, Ant Middleton lays out and explains the principles that he lives by to best keep his mindset and body as strong as they can possibly be.
 </p>
+<br></br>
+<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Mental-Fitness-Rules-Strengthen-Your/dp/B097NB6JWD/ref=sr_1_1?keywords=ant+middleton+mental+fitness&qid=1650205193&sprefix=ant+middleton+men%2Caps%2C75&sr=8-1', '_blank')">Get it here</button>
 
 <br></br>
 
-
-<h2 class="beginner-header">Cycling</h2>
-<img class="beginner-images" src="images/cycling.jpg" alt="woman-warmup" style="float:left" height="250px" width="350px">
+<h2 class="beginner-header">Intelligent Fitness by Simon Waterson</h2>
+<img class="beginner-images" src="images/simon.jpg" alt="woman-warmup" style="float:left" height="370px" width="280px">
 <p class="beginner-workout">
-Cycling has multiple mental health benefits, 
-including reducing stress, anxiety, and depression.
-The article also notes that cycling can help you with your mindfulness practice, make improvements to your self-esteem, defend against cognitive decline, and help you to socialize.
+The brilliant new book from the multiple Sunday Times bestselling author that will explain the principles behind maintaining a healthy mind and body.
+The mind and body are often talked about as separate entities, but it’s only when they work in harmony with one another that one can truly push oneself to the highest heights.
+In his new book, Ant Middleton lays out and explains the principles that he lives by to best keep his mindset and body as strong as they can possibly be.
 </p>
-
-
 <br></br>
-
-<h2 class="beginner-header">Boxing</h2>
-<img class="beginner-images" src="images/boxing.jpg" alt="woman-warmup" style="float:right" height="250px" width="350px">
-<p class="beginner-workout">
-The rumours that hitting a punchbag releases stress and anger is true. Finding an outlet for aggression can be both empowering and healing. Short, sharp 'rounds' of punching, followed by rest, results in an intense interval session, which releases endorphins.
-
-If you 'spar' with another boxer you can achieve 'flow', in which you are focussed solely on the task at hand/present moment; a state that everyone from Buddhist monks to Olympic athletes champion.
-</p>
+<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Intelligent-Fitness-Reboot-foreword-Daniel/dp/178929388X', '_blank')">Get it here</button>
 
 <br></br>
 <button class="btn1" onclick="window.location.href='loseweight.php'">Go back</button>
@@ -263,11 +248,10 @@ If you 'spar' with another boxer you can achieve 'flow', in which you are focuss
     <span id="video-frame-hide" class="fa fa-times"></span>
     <div class="video-frame-container">
       <div class="video-frame-scaler">
-        <iframe style="border: 0px" src="https://www.youtube.com/embed/wnHW6o8WMas" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="border: 0px" src="https://www.youtube.com/embed/_C7bN_ikOwY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
-
 
   <script>
     // document ready function

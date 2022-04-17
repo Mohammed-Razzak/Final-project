@@ -99,6 +99,7 @@ if (!isset($_SESSION['username'])) {
           </div>
           <h4>Beginner exercises</h4>
           <p>Click below for workouts and mental health exercises which you can do at home right now! </p>
+          
 
           <button class="btn1" onclick="window.location.href='loseweight-beginner.php'">Workouts here</button>
         </div>
@@ -112,7 +113,8 @@ if (!isset($_SESSION['username'])) {
           </div>
           <h4>Advanced exercises</h4>
           <p>Here are the advanced workouts you can try when you're finished with the beginner workouts </p>
-          <button class="btn1">Advanced workouts</button>
+          
+          <button class="btn1" onclick="window.location.href='loseweight-advanced.php'">Advanced workouts</button>
         </div>
       </div>
 
@@ -124,7 +126,8 @@ if (!isset($_SESSION['username'])) {
           </div>
           <h4>Diet plans</h4>
           <p>Here is the best food plans for losing weight whether you're vegan or not, we got you covered!</p>
-          <button class="btn1">Food plans here</button>
+        
+          <button class="btn1" onclick="window.location.href='loseweight-food.php'">Food plans here</button>
         </div>
       </div>
     </div>
