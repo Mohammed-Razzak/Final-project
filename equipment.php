@@ -82,41 +82,76 @@ if (!isset($_SESSION['username'])) {
     </div>
   </section>
 
-  <section id="features">
-    <div class="flex container">
-      <div class="box">
-        <img src="images/fitness-class.jpg" alt="Exercise Class" />
-        <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-award fa-3x"></i>
-          </div>
-          <h4>Workout plans</h4>
-          <p>Get the best evidence-backed workout plans that professional athletes follow. These workout plans have proven to be effective in long term fitness. </p>
-        </div>
-      </div>
+  <section id="workouts-beginner">
+  
 
-      <div class="box">
-        <img src="images/equipment-gym.jpg" alt="Gym equipment" />
-        <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-dumbbell fa-3x" ></i>
-          </div>
-          <h4>Equipment recommendations</h4>
-          <p>The essential equipment you need to take your fitness journey to the next level from strong wrist supports for easy lifting to the affordable home dumbells. </p>
-        </div>
-      </div>
+  <h1>Advanced workouts for building muscle</h1>
+  
+  <h2 class="beginner-header">Deadlift</h2>
+  
+  
+  <img class="beginner-images" src="images/deadlift.gif" alt="woman-warmup" style="float:left" height="400px" width="500px">
+  
+  <p class="beginner-workout">
+  Stand with your mid-foot under the barbell.
+Bend over and grab the bar with a shoulder-width grip.
+Bend your knees until your shins touch the bar.
+Lift your chest up and straighten your lower back.
+Take a big breath, hold it, and stand up with the weight.
+Hold the weight for a second at the top, with locked hips and knees.
+Your lower back must stay neutral to avoid injury.
+ Rounding it during heavy Deadlifts is dangerous for your spine. Then return the weight to the floor by moving your hips back while bending your legs.
+ Rest a second at the bottom and repeat.
+  
+  </p>
+  <br></br>
+  <h2 class="beginner-header">Leg Curl</h2>
+  
+  <img class="beginner-images" src="images/leg-curl.gif" alt="woman-warmup" style="float:right" height="390px" width="500px">
+  
+  <p class="beginner-workout">
+  Curl your lower legs up as far as possible without lifting your thighs off the pad.
+   Hold for a second at the top of the movement, then lower slowly back to the start.
+    Keep your movements smooth throughout – if you’re having to resort to jerky movements to shift the weight, you’re using too much.
+    Set up the machine so that the pads sit comfortably against your lower back when you sit on it. Put your legs on the padded lever so it sits just below your calf muscles, and set up the lap pad so it sits on your thighs just above the knees. Lift your legs so they are straight out in front of you and grasp the side handles on the machine.
+     Pull the padded lever down and back towards you as far as you can with your legs, hold for a second, then slowly bring it back to the starting position.
+  </p>
+  <br></br>
+  <h2 class="beginner-header">Chest Dips</h2>
+  
+  <img class="beginner-images" src="images/dips-chest.gif" alt="woman-warmup" style="float:left" height="350px" width="450px">
+  
+  <p class="beginner-workout">
+  The chest dip is a great exercise to use to target the muscles of the chest.
+   It will also indirectly work the muscles of the triceps and shoulders as well.
+   Step up on the dip station (if possible) and position your hands with a neutral grip.
+Initiate the dip by unlocking the elbows and slowly lowering the body until the forearms are almost parallel with the floor.
+Control the descent to parallel and then drive back to the starting position by pushing through the palms.
+Repeat for the desired number of repetitions.
+</p>
+  <br></br>
+  
+  <h2 class="beginner-header">Advanced building muscle video help</h2>
+  
+  <div class="iframe-container">
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/RuXmYDGcoa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
-      <div class="box">
-        <img src="images/dietplan.jpg" alt="healthy food" />
-        <div class="feature-info-container">
-          <div class="icon">
-            <i class="fas fa-apple-alt fa-3x"></i>
-          </div>
-          <h4>Diet plans</h4>
-          <p>Get the best diet plans recommended from sports nutritionists for all types of people including vegetarians and vegans.</p>
-        </div>
-      </div>
-    </div>
+  <br></br>
+  <h1>Advanced performance book</h1>
+<br></br>
+
+<h2 class="beginner-header">The Athletic Performance Blueprint</h2>
+<img class="beginner-images" src="images/athletic.jpg" alt="woman-warmup" style="float:left" height="450px" width="400px">
+<p class="beginner-workout">
+Schneider and Roethlingshoefer,
+ a surgeon and NHL coach, explore the real science behind building the modern athlete.
+  Told in a language that we can all understand, they explain the keys to building athletic muscular performance, sport and position specific development, forging mental toughness, and conditioning like a pro. Whether you are training a youth competitor or hoping to get 3% more improvement from a professional, the The Athletic Performance Blueprint lays the foundation.
+  </p>
+<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Athletic-Performance-Blueprint-Conditioning-Toughness-ebook/dp/B07ZC6RP78/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1650463376&sr=8-7', '_blank')">Get it here</button>
+<br></br>
+<button class="btn1" onclick="window.location.href='buildmuscle.php'">Go back</button>
+
   </section>
 
 

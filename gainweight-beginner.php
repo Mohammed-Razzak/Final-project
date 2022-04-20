@@ -100,29 +100,36 @@ Pull-ups, particularly with weights, are an excellent method to bulk up your mus
 
 </p>
 <br></br>
-<h2 class="beginner-header">Side Plank</h2>
+<h2 class="beginner-header">Bench Dips</h2>
 
-<img class="beginner-images" src="images/side-plank.jpg" alt="woman-warmup" style="float:right" height="390px" width="530px">
+<img class="beginner-images" src="images/bench-dips.gif" alt="woman-warmup" style="float:right" height="390px" width="530px">
 
 <p class="beginner-workout">
-Start by lying on your side, legs straight, feet stacked. Straighten bottom arm, keeping it in line below shoulder, and place free hand on your hip.
-Flex feet and balance on sides of feet (feet are stacked). Use abs to keep hips lifted. Hold for 30 seconds. Work up to 1-3 minutes. Don't allow hips to drop to the ground. Keep breathing steady.
+Bench Dips are simple yet useful exercises to gain body weight.  This exercise mainly targets the triceps but it also focuses on your chest and the front part of your shoulder.
+For this exercise, you need a Bench.
+Grip the ends of the bench with your palms.
+The palms should be downwards with fingertips facing the ground.
+Extend your legs forward, bent at your waist and perpendicular to your torso.
+Lower your buttocks by bending your elbows 90 degrees and pushing yourself down.
+Straighten your arms and lift your body back to the initial position. Repeat the same process.
 </p>
 <br></br>
-<br></br>
-<h2 class="beginner-header">Dumbbell squat & press</h2>
+<h2 class="beginner-header">Glute Kickback</h2>
 
-<img class="beginner-images" src="images/dumbbellsquatandpress.gif" alt="woman-warmup" style="float:left" height="420px" width="520px">
+<img class="beginner-images" src="images/glute.gif" alt="woman-warmup" style="float:left" height="350px" width="450px">
 
 <p class="beginner-workout">
-Stand tall with back and legs straight, feet hip-distance apart, toes pointing forward.
- Hold dumbbells in front of shoulders, elbows bent, palms facing outward.
- Bend knees and hips to squat down, keeping chest lifted, back straight and knees behind your toes.
- Straighten legs to starting position. Press weights overhead in line with shoulders to straighten (but not lock) the arms, palms facing outward.
- Slowly lower weights back down in front of shoulders to complete one rep. Keep shoulders relaxed away from your ears on overhead press. Try to avoid leaning forward during squat.
+Glute kickbacks mainly benefit your gluteal muscles. It also targets your hamstrings and strengthens your buttocks. 
+It’s a good exercise to gain body weight.
+Kneel on the ground with your hands in a press-up position. 
+Slowly lift one of your legs upwards until your hamstrings are in line with your back.
+Squeeze the glutes during the move and hold for a second once fully extended.
+Return to the initial position and do the same with the other leg.
+Don’t arch your back, keep it straight. Don’t try this exercise if you have any prior back pain.
   
 
 </p>
+<br></br>
 
 <br></br>
 
@@ -132,7 +139,7 @@ Stand tall with back and legs straight, feet hip-distance apart, toes pointing f
 <iframe width="700" height="400" src="https://www.youtube.com/embed/1Q6ij1qSrrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br></br>
+<!-- <br></br>
 
 <h1>Mental health book recommendations</h1>
 <br></br>
@@ -157,10 +164,10 @@ The mind and body are often talked about as separate entities, but it’s only w
 In his new book, Ant Middleton lays out and explains the principles that he lives by to best keep his mindset and body as strong as they can possibly be.
 </p>
 <br></br>
-<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Intelligent-Fitness-Reboot-foreword-Daniel/dp/178929388X', '_blank')">Get it here</button>
+<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Intelligent-Fitness-Reboot-foreword-Daniel/dp/178929388X', '_blank')">Get it here</button> -->
 
 <br></br>
-<button class="btn1" onclick="window.location.href='loseweight.php'">Go back</button>
+<button class="btn1" onclick="window.location.href='gainweight.php'">Go back</button>
 
 
 

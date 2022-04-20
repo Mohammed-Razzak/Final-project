@@ -21,6 +21,9 @@ if (!isset($_SESSION['username'])) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style-tracker.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
@@ -192,6 +195,29 @@ if (!isset($_SESSION['username'])) {
 
 
 </section>
+
+<section id="tracker">
+  <body>
+  <h1>Track your activities here</h1>
+<div class="wrapper">
+      <div class="task-input">
+        <img src="bars-icon.svg" alt="icon">
+        <input type="text" placeholder="Add a new exercise">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</section>
+
   
 
   <footer>

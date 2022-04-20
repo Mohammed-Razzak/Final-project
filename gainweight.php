@@ -83,6 +83,8 @@ if (!isset($_SESSION['username'])) {
   </section>
 
   <section id="features">
+  <h1>Guide for gaining weight</h1>
+  <br></br>
     <div class="flex container">
       <div class="box">
         <img src="images/fitness-class.jpg" alt="Exercise Class" />
@@ -102,8 +104,9 @@ if (!isset($_SESSION['username'])) {
           <div class="icon">
             <i class="fas fa-dumbbell fa-3x" ></i>
           </div>
-          <h4>Equipment recommendations</h4>
-          <p>The essential equipment you need to take your fitness journey to the next level from strong wrist supports for easy lifting to the affordable home dumbells. </p>
+          <h4>Gain weight advanced workouts</h4>
+          <p>Here are some advanced workouts to try out as well as some resources to help with gaining weight.</p>
+          <button class="btn1" onclick="window.location.href='gainweight-advanced.php'">Advanced</button>
         </div>
       </div>
 
@@ -113,8 +116,9 @@ if (!isset($_SESSION['username'])) {
           <div class="icon">
             <i class="fas fa-apple-alt fa-3x"></i>
           </div>
-          <h4>Diet plans</h4>
+          <h4>Food plans for gaining weight</h4>
           <p>Get the best diet plans recommended from sports nutritionists for all types of people including vegetarians and vegans.</p>
+          <button class="btn1" onclick="window.location.href='gainweight-food.php'">Food plan</button>
         </div>
       </div>
     </div>
