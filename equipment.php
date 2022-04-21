@@ -56,7 +56,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <div id="hero-slider">
-      <div class="hero-slide-item" style="background-image:url(images/cardio.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/stretch.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Lose Weight</h2>
@@ -72,7 +72,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <div class="hero-slide-item" style="background-image:url(images/dwayne-johnson.jpg);">
+      <div class="hero-slide-item" style="background-image:url(images/Weights.jpg);">
         <div class="hero-slider-marketing">
           <a href="#" class="youtube-button"><span class="fa fa-play"></span></a>
           <h2>PlanFit.Gain Weight</h2>
@@ -84,73 +84,44 @@ if (!isset($_SESSION['username'])) {
 
   <section id="workouts-beginner">
   
+  <h1>Essential Equipment and Products</h1>
+  <br></br>
+  
+  <h2 class="beginner-header">Tower Dip Station Pull Up Bar for Home</h2>
+  
 
-  <h1>Advanced workouts for building muscle</h1>
-  
-  <h2 class="beginner-header">Deadlift</h2>
-  
-  
-  <img class="beginner-images" src="images/deadlift.gif" alt="woman-warmup" style="float:left" height="400px" width="500px">
-  
+  <img class="beginner-images" src="images/dip-station.jpg" alt="woman-warmup" style="float:left" height="450px" width="350px">
   <p class="beginner-workout">
-  Stand with your mid-foot under the barbell.
-Bend over and grab the bar with a shoulder-width grip.
-Bend your knees until your shins touch the bar.
-Lift your chest up and straighten your lower back.
-Take a big breath, hold it, and stand up with the weight.
-Hold the weight for a second at the top, with locked hips and knees.
-Your lower back must stay neutral to avoid injury.
- Rounding it during heavy Deadlifts is dangerous for your spine. Then return the weight to the floor by moving your hips back while bending your legs.
- Rest a second at the bottom and repeat.
-  
+  It is a multi-functional dip station that supports vertical knee raise, push-ups, dips as well as pull-ups, which help tone and target your arms, core, shoulders, chest, and back for a stronger upper body.
+  The arm-support part of this pull-up station applied a tilt inward 10 degrees design, which prevents arm slipping out of the arm pads during sweating, more secure than the flat design.The hand-grip area foam wrapped offer comfortable exercise experience.
+  The height of the pull-up bar can be adjusted to 165cm-210cm-215cm-225cm, which can fully meet the daily exercise of men, women, and children. The backrest can be adjusted forward or backward by the back support tube, which ensures users in different types of figures gain suitable support.
   </p>
+  <button class="btn1" onclick="window.open('https:www.amazon.co.uk/Sportsroyals-Station-Strength-Training-Equipment/dp/B07SM8VJ6P/ref=sr_1_2_sspa?keywords=tower+dip+station&qid=1650553775&sprefix=tower+dip+s%2Caps%2C148&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFNOTkyWUlWUkcwQTcmZW5jcnlwdGVkSWQ9QTAwMTg2NzFZWkRSQUxDSUVVU1MmZW5jcnlwdGVkQWRJZD1BMDY4NzEyMk05UTVZVEhLVzI0WSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=', '_blank')">Get it here</button>
   <br></br>
-  <h2 class="beginner-header">Leg Curl</h2>
+  <h2 class="beginner-header">Portable Push Up Board</h2>
   
-  <img class="beginner-images" src="images/leg-curl.gif" alt="woman-warmup" style="float:right" height="390px" width="500px">
+  <img class="beginner-images" src="images/portable.jpg" alt="woman-warmup" style="float:right" height="390px" width="500px">
   
   <p class="beginner-workout">
-  Curl your lower legs up as far as possible without lifting your thighs off the pad.
-   Hold for a second at the top of the movement, then lower slowly back to the start.
-    Keep your movements smooth throughout – if you’re having to resort to jerky movements to shift the weight, you’re using too much.
-    Set up the machine so that the pads sit comfortably against your lower back when you sit on it. Put your legs on the padded lever so it sits just below your calf muscles, and set up the lap pad so it sits on your thighs just above the knees. Lift your legs so they are straight out in front of you and grasp the side handles on the machine.
-     Pull the padded lever down and back towards you as far as you can with your legs, hold for a second, then slowly bring it back to the starting position.
+  No need to ask for personal training and no need to go to the gym, 30 minutes a day with this muscle board to build the perfect muscle group.
+  Push Up Board comes with different colour coded holes that provide different configurations to change the strength of the muscles during push ups.
+  Muscle Board comes with Anti slip Pad and multi lock snap fit. In addition to this, comes with grip handles that is used to reduce pressure on your wrist and prevent to damage your joints.
   </p>
+  <button class="btn1" onclick="window.open('https:www.amazon.co.uk/Sportsroyals-Station-Strength-Training-Equipment/dp/B07SM8VJ6P/ref=sr_1_2_sspa?keywords=tower+dip+station&qid=1650553775&sprefix=tower+dip+s%2Caps%2C148&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFNOTkyWUlWUkcwQTcmZW5jcnlwdGVkSWQ9QTAwMTg2NzFZWkRSQUxDSUVVU1MmZW5jcnlwdGVkQWRJZD1BMDY4NzEyMk05UTVZVEhLVzI0WSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=', '_blank')">Get it here</button>
   <br></br>
-  <h2 class="beginner-header">Chest Dips</h2>
+  <h2 class="beginner-header">Massage Gun</h2>
   
-  <img class="beginner-images" src="images/dips-chest.gif" alt="woman-warmup" style="float:left" height="350px" width="450px">
+  <img class="beginner-images" src="images/massage-gun.jpg" alt="woman-warmup" style="float:left" height="400px" width="450px">
   
   <p class="beginner-workout">
-  The chest dip is a great exercise to use to target the muscles of the chest.
-   It will also indirectly work the muscles of the triceps and shoulders as well.
-   Step up on the dip station (if possible) and position your hands with a neutral grip.
-Initiate the dip by unlocking the elbows and slowly lowering the body until the forearms are almost parallel with the floor.
-Control the descent to parallel and then drive back to the starting position by pushing through the palms.
-Repeat for the desired number of repetitions.
+  Upgraded R3 Powerful Massage Gun is equipped with 16.8V brushless motor, which can reach 1800 to 3200rpm/min, available for different muscle groups, aiding in sore muscle relief, relax and shape different body muscle parts.
+  The brushless noise reduction motor is equipped with a new generation of noise reduction technology to control the noise within 45dB, just like whispering in the ear, making the fatigue and soreness of the body all resolved in the silent vibration, you enjoy a quiet moment of relaxation!
+  No need carry the charging cable anywhere when you travel or just go out! This Renpho deep tissue muscle massage gun designed with type C charging port can be charged with most popular type c cable by regular phone adapter or 5V/2A adapter such as a power bank.
 </p>
-  <br></br>
+<button class="btn1" onclick="window.open('https:www.amazon.co.uk/RENPHO-Portable-Handheld-Percussion-Post-Workout/dp/B085NTR26K/ref=sr_1_4_sspa?keywords=massage%2Bgun&qid=1650554244&sprefix=massa%2Caps%2C79&sr=8-4-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUzdJRkhJTjBQMEY2JmVuY3J5cHRlZElkPUEwNDUyNTUwMUZJOTc4WTFDSTI1UCZlbmNyeXB0ZWRBZElkPUEwNTExMTY2NDAyMDNJVFRVN1hVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1', '_blank')">Get it here</button>
   
-  <h2 class="beginner-header">Advanced building muscle video help</h2>
-  
-  <div class="iframe-container">
-  <iframe width="700" height="400" src="https://www.youtube.com/embed/RuXmYDGcoa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  <br></br>
-  <h1>Advanced performance book</h1>
 <br></br>
-
-<h2 class="beginner-header">The Athletic Performance Blueprint</h2>
-<img class="beginner-images" src="images/athletic.jpg" alt="woman-warmup" style="float:left" height="450px" width="400px">
-<p class="beginner-workout">
-Schneider and Roethlingshoefer,
- a surgeon and NHL coach, explore the real science behind building the modern athlete.
-  Told in a language that we can all understand, they explain the keys to building athletic muscular performance, sport and position specific development, forging mental toughness, and conditioning like a pro. Whether you are training a youth competitor or hoping to get 3% more improvement from a professional, the The Athletic Performance Blueprint lays the foundation.
-  </p>
-<button class="btn1" onclick="window.open('https:www.amazon.co.uk/Athletic-Performance-Blueprint-Conditioning-Toughness-ebook/dp/B07ZC6RP78/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1650463376&sr=8-7', '_blank')">Get it here</button>
-<br></br>
-<button class="btn1" onclick="window.location.href='buildmuscle.php'">Go back</button>
+<button class="btn1" onclick="window.location.href='equipment.php'">Go back</button>
 
   </section>
 
