@@ -107,7 +107,7 @@ if (!isset($_SESSION['username'])) {
   Push Up Board comes with different colour coded holes that provide different configurations to change the strength of the muscles during push ups.
   Muscle Board comes with Anti slip Pad and multi lock snap fit. In addition to this, comes with grip handles that is used to reduce pressure on your wrist and prevent to damage your joints.
   </p>
-  <button class="btn1" onclick="window.open('https:www.amazon.co.uk/Sportsroyals-Station-Strength-Training-Equipment/dp/B07SM8VJ6P/ref=sr_1_2_sspa?keywords=tower+dip+station&qid=1650553775&sprefix=tower+dip+s%2Caps%2C148&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFNOTkyWUlWUkcwQTcmZW5jcnlwdGVkSWQ9QTAwMTg2NzFZWkRSQUxDSUVVU1MmZW5jcnlwdGVkQWRJZD1BMDY4NzEyMk05UTVZVEhLVzI0WSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=', '_blank')">Get it here</button>
+  <button class="btn1" onclick="window.open('https:www.amazon.co.uk/UKVIO-Portable-Multifunctional-Equipment-Strength/dp/B091P6ZS44/ref=sr_1_8?keywords=portable+push+up+board&qid=1650995551&sprefix=portable+push+u%2Caps%2C121&sr=8-8', '_blank')">Get it here</button>
   <br></br>
   <h2 class="beginner-header">Massage Gun</h2>
   

@@ -1,3 +1,6 @@
+
+// Intialising variables
+
 const taskInput = document.querySelector(".task-input input"),
 filters = document.querySelectorAll(".filters span"),
 clearAll = document.querySelector(".clear-btn"),
@@ -14,6 +17,9 @@ filters.forEach(btn => {
         showTodo(btn.id);
     });
 });
+
+// This is the function which allows to check the status through the completed filter on the tracking feature of the app
+
 
 function showTodo(filter) {
     let liTag = "";
@@ -42,6 +48,7 @@ function showTodo(filter) {
     !checkTask.length ? clearAll.classList.remove("active") : clearAll.classList.add("active");
     taskBox.offsetHeight >= 300 ? taskBox.classList.add("overflow") : taskBox.classList.remove("overflow");
 }
+
 showTodo("all");
 
 function showMenu(selectedTask) {
@@ -53,6 +60,8 @@ function showMenu(selectedTask) {
         }
     });
 }
+
+// This function updates activities based on whether they are pending or completed
 
 function updateStatus(selectedTask) {
     let taskName = selectedTask.parentElement.lastElementChild;
@@ -66,6 +75,8 @@ function updateStatus(selectedTask) {
     localStorage.setItem("todo-list", JSON.stringify(todos))
 }
 
+// This function allows users edit taks successfully on the list
+
 function editTask(taskId, textName) {
     editId = taskId;
     isEditTask = true;
@@ -73,6 +84,8 @@ function editTask(taskId, textName) {
     taskInput.focus();
     taskInput.classList.add("active");
 }
+
+// This function allows users delete tasks successfully on the list
 
 function deleteTask(deleteId, filter) {
     isEditTask = false;
@@ -87,6 +100,9 @@ clearAll.addEventListener("click", () => {
     localStorage.setItem("todo-list", JSON.stringify(todos));
     showTodo()
 });
+
+
+// When the 
 
 taskInput.addEventListener("keyup", e => {
     let userTask = taskInput.value.trim();
