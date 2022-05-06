@@ -10,6 +10,8 @@ let editId,
 isEditTask = false,
 todos = JSON.parse(localStorage.getItem("todo-list"));
 
+// The event listener allows the user to click an activity to cross out from the list
+
 filters.forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelector("span.active").classList.remove("active");
@@ -18,8 +20,7 @@ filters.forEach(btn => {
     });
 });
 
-// This is the function which allows to check the status through the completed filter on the tracking feature of the app
-
+// This function allows 'all' filter to for users to check all their activities that they added on the list
 
 function showTodo(filter) {
     let liTag = "";
@@ -94,6 +95,8 @@ function deleteTask(deleteId, filter) {
     showTodo(filter);
 }
 
+// This functions allows users to clear all their activties on the list
+
 clearAll.addEventListener("click", () => {
     isEditTask = false;
     todos.splice(0, todos.length);
@@ -102,7 +105,7 @@ clearAll.addEventListener("click", () => {
 });
 
 
-// When the 
+// When user clicks 'enter' it goes to the pending section of the actvitiy list
 
 taskInput.addEventListener("keyup", e => {
     let userTask = taskInput.value.trim();
